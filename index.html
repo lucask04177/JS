@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1  id="hello">안녕하세요</h1>
+    <p id="font-color" style="color: blue">안녕하다</p>
+    <h1 id="js-gosu">JS 초보자임</h1>
+    <div class="alret-box" id="alret">
+        I am box
+        <button id="close-btn" onclick="document.getElementById('alret').style.display = 'none';">close</button>
+    </div>
+    <button onclick="document.getElementById('alret').style.display = 'block'; ">alret-box</button>
+
+    <script>
+        document.getElementById('hello').innerHTML = "No";
+        document.getElementById('font-color').style.color = 'red';
+        document.getElementById('js-gosu').innerHTML = "JS 고수임";
+        document.getElementById('hello').style.fontSize = "16px";
+    </script>
+
+</body>
+</html>
